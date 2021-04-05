@@ -59,7 +59,7 @@ a {
   color: var(--color-accent);
   border: 2px solid var(--color-accent);
   padding: 10px 20px;
-  text-transform: uppercase;
+
   font-size: 2rem;
   font-weight: bold;
 }
@@ -72,22 +72,40 @@ a {
     font-size: 1.5rem;
   }
 }
-.badge {
-  border-radius: 20px;
-  padding-right: 0.5rem 2rem;
-  font-weight: bold;
-  white-space: nowrap;
+/* buttons*/
+.btn {
   font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  white-space: nowrap;
 }
-.badge--primary {
+.btn--primary {
   background: var(--color-primary);
   color: #fff;
 }
-
-.badge--secondary {
-  background: var(--color-secondary);
+.btn--primary:hover {
+  background-color: #3fa33f;
+}
+.btn--secondary {
+  background: var(--color-accent);
   color: #fff;
 }
-.badge--small {
-  font-size: 1.6rem;
+.btn--secondary:hover {
+  background-color: #3fa33f;
+}
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+.btn--accent:hover {
+  background-color: #3fa33f;
+}
+/*inputs*/
+.input {
+  padding: 1.5rem 3.5rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
 }
