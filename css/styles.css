@@ -186,3 +186,11 @@ a {
     flex-direction: column;
   }
 }
+/* Icons */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon--primary {
+  fill: var(--color-primary);
+}
